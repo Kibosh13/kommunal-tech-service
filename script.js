@@ -75,7 +75,9 @@ document.addEventListener('click', (event) => {
   const comment = form.querySelector('[name="comment"]');
   const itemName = orderButton.dataset.order;
   if (comment && itemName) {
-    comment.value = `Интересует: ${itemName}`;
+    // Не теряем VIN и другие сведения, уже введённые посетителем.
+    const details = comment.value.replace(/^Интересует:.*(?:\r?\n)?/, '').trim();
+    comment.value = `Интересует: ${itemName}${details ? `\n${details}` : ''}`;
   }
 
   closeModal();
@@ -88,7 +90,7 @@ document.querySelectorAll('.request-form').forEach((form) => {
     event.preventDefault();
     const status = form.querySelector('.form-status');
     if (status) {
-      status.textContent = 'Форма работает в демонстрационном режиме. Отправку подключим при публикации.';
+      status.textContent = 'Заявка не отправлена: это демонстрационная форма. Для заказа позвоните 8 925 333-99-33 или напишите на to@4sale.ru.';
     }
   });
 });
