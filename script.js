@@ -90,7 +90,7 @@ document.querySelectorAll('.request-form').forEach((form) => {
     event.preventDefault();
     const status = form.querySelector('.form-status');
     if (status) {
-      status.textContent = 'Заявка не отправлена: это демонстрационная форма. Для заказа позвоните 8 925 333-99-33 или напишите на to@4sale.ru.';
+      status.textContent = 'Заявка не отправлена: это демонстрационная форма. Для заказа позвоните +7 (967) 189-51-77 или напишите на emg-technics@mail.ru.';
     }
   });
 });
