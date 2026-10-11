@@ -1,5 +1,6 @@
 const header = document.querySelector('.site-header');
 const menuToggle = document.querySelector('.menu-toggle');
+window.siteRuntime = JSON.parse(document.querySelector('#cms-runtime')?.textContent || '{}');
 
 if (header && menuToggle) {
   menuToggle.addEventListener('click', () => {
@@ -85,12 +86,41 @@ document.addEventListener('click', (event) => {
   window.setTimeout(() => form.querySelector('[name="name"]')?.focus(), 450);
 });
 
+const leadToken = window.siteRuntime.mode === 'live'
+  ? fetch('api/lead.php', { credentials: 'same-origin' }).then(async response => {
+      const data = await response.json();
+      if (!response.ok) throw new Error(data.error || 'Форма временно недоступна.');
+      return data.csrf;
+    }).catch(() => null)
+  : Promise.resolve(null);
+
 document.querySelectorAll('.request-form').forEach((form) => {
-  form.addEventListener('submit', (event) => {
+  form.addEventListener('submit', async (event) => {
     event.preventDefault();
     const status = form.querySelector('.form-status');
-    if (status) {
-      status.textContent = 'Заявка не отправлена: это демонстрационная форма. Для заказа позвоните +7 (967) 189-51-77 или напишите на emg-technics@mail.ru.';
+    const runtime = window.siteRuntime;
+    if (form.dataset.live !== 'true') {
+      status.textContent = `Заявка не отправлена: это демонстрационная форма. Для заказа позвоните ${runtime.phone || '+7 (967) 189-51-77'} или напишите на ${runtime.email || 'emg-technics@mail.ru'}.`;
+      return;
     }
+    const button = form.querySelector('[type="submit"]');
+    button.disabled = true;
+    status.textContent = 'Сохраняем заявку…';
+    try {
+      const token = await leadToken;
+      if (!token) throw new Error('Не удалось подготовить форму. Обновите страницу или свяжитесь с нами по телефону.');
+      const values = Object.fromEntries(new FormData(form));
+      const response = await fetch('api/lead.php', {
+        method: 'POST', credentials: 'same-origin',
+        headers: { 'Content-Type': 'application/json', 'X-CSRF-Token': token },
+        body: JSON.stringify({ ...values, consent: form.querySelector('[name="consent"]').checked })
+      });
+      const result = await response.json();
+      if (!response.ok) throw new Error(result.error || 'Не удалось отправить заявку.');
+      status.textContent = `${result.message} Номер: ${result.id}.`;
+      form.reset();
+    } catch (error) {
+      status.textContent = `${error.message} Телефон: ${runtime.phone}. Почта: ${runtime.email}.`;
+    } finally { button.disabled = false; }
   });
 });

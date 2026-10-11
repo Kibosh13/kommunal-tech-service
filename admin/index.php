@@ -1,0 +1,15 @@
+<?php
+require __DIR__.'/../app/bootstrap.php';
+security_headers(true);
+$assetVersion=substr(hash('sha256',file_get_contents(__DIR__.'/admin.js').file_get_contents(__DIR__.'/admin.css')),0,12);
+?><!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Управление сайтом · rkt1.ru</title><link rel="stylesheet" href="admin.css?v=<?php echo $assetVersion; ?>"><script src="admin.js?v=<?php echo $assetVersion; ?>" defer></script></head>
+<body>
+<div id="auth-screen" class="auth-screen" hidden><section class="auth-card"><a class="logo" href="../index.html">РКТ<span> / управление</span></a><h1 id="auth-title">Вход в админку</h1><p id="auth-help">Изменения доступны только владельцу сайта.</p><form id="auth-form"><label id="setup-token-label" hidden>Одноразовый код активации<input name="token" type="password" autocomplete="off"></label><label>Логин<input name="username" autocomplete="username" required maxlength="50"></label><label>Пароль<input name="password" type="password" autocomplete="current-password" required maxlength="72"></label><p id="password-help" class="hint" hidden>Придумайте пароль от 12 символов. Код активации используется только один раз.</p><button class="primary" type="submit" id="auth-submit">Войти</button><p id="auth-error" role="alert"></p></form></section></div>
+<div id="app" class="app" hidden>
+<aside class="sidebar"><a class="logo" href="../index.html" target="_blank" rel="noopener">РКТ<span> / управление</span></a><nav aria-label="Разделы админки"><button data-view="dashboard">Обзор</button><button data-view="pages">Тексты и страницы</button><button data-view="products">Товары</button><button data-view="media">Изображения и PDF</button><button data-view="settings">Контакты и настройки</button><button data-view="mail">Отправка писем</button><button data-view="leads">Заявки</button><button data-view="backups">Резервные копии</button><button data-view="security">Безопасность</button></nav><div class="sidebar-bottom"><span id="signed-user"></span><a href="../index.html" target="_blank" rel="noopener">Открыть сайт ↗</a><button id="logout">Выйти</button></div></aside>
+<main class="workspace"><header class="toolbar"><div><p class="eyebrow">АДМИНИСТРАЦИЯ САЙТА</p><h1 id="view-title">Обзор</h1></div><div class="toolbar-actions"><span id="dirty-status">Все изменения сохранены</span><button id="reload" class="secondary">Обновить</button><button id="save" class="primary">Сохранить на сайт</button></div></header><p id="notice" class="notice" role="status" hidden></p><div id="view"></div></main>
+</div>
+<dialog id="confirm-dialog"><h2 id="confirm-title">Подтвердите действие</h2><p id="confirm-message"></p><div class="dialog-actions"><button id="confirm-cancel" class="secondary">Отмена</button><button id="confirm-ok" class="danger">Подтвердить</button></div></dialog>
+<dialog id="media-picker"><header><h2>Выбрать файл</h2><button id="picker-close" class="secondary">Закрыть</button></header><div id="picker-grid" class="media-grid"></div></dialog>
+</body></html>

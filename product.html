@@ -6,11 +6,11 @@
     <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
     <title>Карточка запчасти — Выездной сервис коммунальной техники</title>
     <meta name="description" content="Фотографии, описание и характеристики запчастей для мусоровозов. Подбор по артикулу и VIN.">
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23292929'/%3E%3Cpath d='M15 37h29l5 7H18a7 7 0 0 1-3-7Zm5-17h22l2 14H17l3-14Z' fill='%2300dfc8'/%3E%3Ccircle cx='24' cy='46' r='5' fill='white'/%3E%3Ccircle cx='43' cy='46' r='5' fill='white'/%3E%3C/svg%3E">
-    <link rel="stylesheet" href="style.css?v=20261009">
-    <script src="script.js?v=20261009" defer></script>
-    <script src="products.js?v=20261009" defer></script>
-    <script src="product.js?v=20261009" defer></script>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%23292929'/%3E%3Cpath%20d='M15%2037h29l5%207H18a7%207%200%200%201-3-7Zm5-17h22l2%2014H17l3-14Z'%20fill='%2300dfc8'/%3E%3Ccircle%20cx='24'%20cy='46'%20r='5'%20fill='white'/%3E%3Ccircle%20cx='43'%20cy='46'%20r='5'%20fill='white'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css?v=574d4621b3ad">
+    <script src="script.js?v=574d4621b3ad" defer></script>
+    <script src="products.js?v=574d4621b3ad" defer></script>
+    <script src="product.js?v=574d4621b3ad" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">К содержанию</a>
@@ -41,7 +41,7 @@
                 <h1 id="product-title"></h1>
                 <div class="product-identifiers"><span id="product-sku"></span><span id="product-brand"></span></div>
                 <p class="product-lead" id="product-summary"></p>
-                <div class="product-offer"><span class="offer-label">Стоимость</span><strong>По запросу</strong><p>Наличие, срок поставки и комплектацию уточним после проверки совместимости.</p><a class="button button-mint" id="product-order" href="#request" data-order="">Запросить цену и наличие</a><a class="product-phone" href="tel:+79671895177">+7 (967) 189-51-77</a></div>
+                <div class="product-offer"><span class="offer-label">Стоимость</span><strong id="product-price">По запросу</strong><p class="product-availability" id="product-availability"></p><p>Наличие, срок поставки и комплектацию уточним после проверки совместимости.</p><a class="button button-mint" id="product-order" href="#request" data-order="">Запросить цену и наличие</a><a class="product-phone" href="tel:+79671895177">+7 (967) 189-51-77</a></div>
                 <p class="compatibility-note">Перед заказом сверяем артикул, модификацию техники и подключение детали. Фотография служит ориентиром при подборе.</p>
               </div>
             </div>
@@ -58,12 +58,12 @@
       <section class="section form-section soft" id="request">
         <div class="container">
           <div class="section-heading"><h2>Заявка на запчасть</h2><p>Выбранная деталь уже указана в комментарии. Добавьте модель техники, VIN и данные для подбора.</p></div>
-          <form class="request-form" id="request-form">
+          <form class="request-form" id="request-form" data-live="false" method="post" action="api/lead.php">
             <div class="form-field"><input id="name" name="name" type="text" placeholder=" " autocomplete="name" required><label for="name">Имя</label></div>
             <div class="form-field"><input id="email" name="email" type="email" placeholder=" " autocomplete="email" required><label for="email">Электронная почта</label></div>
             <div class="form-field form-field-full"><input id="phone" name="phone" type="tel" placeholder=" " autocomplete="tel"><label for="phone">Телефон</label></div>
             <div class="form-field form-field-full"><textarea id="comment" name="comment" placeholder=" "></textarea><label for="comment">Запчасть и данные техники</label></div>
-            <div class="form-actions"><button class="button" type="submit">Проверить заявку (демо)</button><p class="form-note">Демонстрационная форма: данные не отправляются. Для заказа позвоните нам или напишите на <a href="mailto:emg-technics@mail.ru">emg-technics@mail.ru</a>.</p></div>
+            <div class="form-actions"><button class="button" type="submit">Проверить заявку (демо)</button><p class="form-note">Демонстрационная форма: данные не отправляются. Для заказа используйте телефон или почту.</p></div>
             <p class="form-status" aria-live="polite"></p>
           </form>
         </div>
@@ -72,5 +72,5 @@
     </main>
     <footer class="footer"><div class="container footer-inner"><span>© <span class="year"></span> ИП Блинов С.Е.</span><a href="#main">Наверх</a></div></footer>
     <dialog class="photo-dialog" id="photo-dialog" aria-label="Увеличенное изображение запчасти"><button class="modal-close" id="photo-dialog-close" type="button" aria-label="Закрыть изображение">×</button><img id="photo-dialog-image" alt=""><div class="photo-dialog-controls"><button id="photo-previous" type="button" aria-label="Предыдущее изображение">←</button><span id="photo-dialog-caption" aria-live="polite"></span><button id="photo-next" type="button" aria-label="Следующее изображение">→</button></div></dialog>
-  </body>
+  <script type="application/json" id="cms-runtime">{"mode":"demo","phone":"+7 (967) 189-51-77","email":"emg-technics@mail.ru","brand":"Выездной Сервис Коммунальной Техники","labels":{"details":"Подробнее","order":"Запросить цену","submit":"Отправить заявку","sku":"Артикул","brand":"Техника","skuMissing":"Артикул уточняется при подборе","photo":"Фото","diagram":"Каталожная схема","emptyCatalog":"В этом разделе пока нет опубликованных запчастей. Свяжитесь с нами для подбора.","liveFormNote":"Заявка сохранится у владельца сайта. Для срочного вопроса позвоните нам."}}</script></body>
 </html>

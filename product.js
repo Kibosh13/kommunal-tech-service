@@ -3,24 +3,29 @@
   const catalog = window.partsCatalog;
   const product = catalog && Object.hasOwn(catalog, id) ? catalog[id] : null;
   const element = (name) => document.getElementById(name);
+  const labels = window.siteRuntime?.labels || {};
   if (!product) {
     element('product-missing').hidden = false;
     document.title = 'Запчасть не найдена — Выездной сервис';
     return;
   }
 
-  document.title = `${product.title}${product.sku ? ` ${product.sku}` : ''} — Выездной сервис`;
+  document.title = `${product.title}${product.sku ? ` ${product.sku}` : ''} — ${window.siteRuntime?.brand || 'Выездной сервис'}`;
   document.querySelector('meta[name="description"]').content = product.summary;
   element('product-detail').hidden = false;
-  element('product-catalog-link').href = product.brand === 'HIDRO-MAK' ? 'hidromak.html' : 'katmerciler.html';
+  element('product-catalog-link').href = product.brand === 'HIDRO-MAK' ? 'hidromak.html' : product.brand === 'KATMERCILER' ? 'katmerciler.html' : `catalog.html?brand=${encodeURIComponent(product.brand)}`;
   element('product-catalog-link').textContent = product.brand;
   element('product-breadcrumb').textContent = product.title;
   element('product-title').textContent = product.title;
   element('product-category').textContent = product.category;
-  element('product-sku').textContent = product.sku ? `Артикул: ${product.sku}` : 'Артикул уточняется при подборе';
-  element('product-brand').textContent = `Техника: ${product.brand}`;
+  element('product-sku').textContent = product.sku ? `${labels.sku || 'Артикул'}: ${product.sku}` : (labels.skuMissing || 'Артикул уточняется при подборе');
+  element('product-brand').textContent = `${labels.brand || 'Техника'}: ${product.brand}`;
   element('product-summary').textContent = product.summary;
   element('product-selection').textContent = product.selection;
+  if (element('product-price')) element('product-price').textContent = product.price || 'По запросу';
+  if (element('product-availability')) element('product-availability').textContent = product.availability || 'Уточняйте наличие';
+  element('product-description').replaceChildren();
+  element('product-specs').replaceChildren();
 
   const orderName = `${product.title}${product.sku ? ` · ${product.sku}` : ''} (${product.brand})`;
   element('product-order').dataset.order = orderName;
@@ -63,8 +68,8 @@
       element(name).src = photo.src;
       element(name).alt = photo.alt;
     });
-    const caption = `${product.diagram ? 'Каталожная схема' : 'Фото'} ${activePhoto + 1} из ${product.photos.length}`;
-    element('product-photo-caption').textContent = `${caption}. ${product.diagram ? 'Позиции уточняются при подборе.' : 'Изображение из исходного каталога.'}`;
+    const caption = `${product.diagram ? (labels.diagram || 'Каталожная схема') : (labels.photo || 'Фото')} ${activePhoto + 1} из ${product.photos.length}`;
+    element('product-photo-caption').textContent = `${caption}${product.photoNote ? `. ${product.photoNote}` : ''}`;
     element('photo-dialog-caption').textContent = caption;
     thumbnails.forEach((button, photoIndex) => button.setAttribute('aria-pressed', String(photoIndex === activePhoto)));
   }

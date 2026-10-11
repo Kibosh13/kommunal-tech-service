@@ -48,3 +48,14 @@ Thumbs.db
 
 # Local preview/runtime state
 .sites-runtime/
+
+# CMS runtime, customer data and installed server dependencies
+vendor/
+uploads/*
+!uploads/.htaccess
+!uploads/.gitkeep
+storage/
+*.backup.json
+auth.json
+mail-secret.json
+.phpunit.cache/

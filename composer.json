@@ -1,0 +1,7 @@
+{
+  "name": "kibosh13/kommunal-tech-service",
+  "description": "Self-hosted website and administration panel for rkt1.ru",
+  "type": "project",
+  "require": {"php": ">=8.3", "ext-dom": "*", "ext-mbstring": "*", "ext-fileinfo": "*", "ext-gd": "*", "phpmailer/phpmailer": "^7.0"},
+  "config": {"platform": {"php": "8.3.31"}, "sort-packages": true, "allow-plugins": false}
+}

@@ -45,6 +45,16 @@ img {
   max-width: 100%;
 }
 
+[hidden] { display: none !important; }
+.catalog-all-link { margin-top: 40px; text-align: center; }
+.catalog-price { font-weight: 650; }
+.catalog-empty { padding: 30px; text-align: center; }
+.form-consent { grid-column: 1 / -1; display: flex; align-items: flex-start; gap: 12px; font-size: 14px; color: #555; }
+.form-consent input { flex: none; width: 18px; height: 18px; margin-top: 3px; accent-color: #008e7e; }
+.honeypot { display: none; }
+.metrica-pixel { position: absolute; width: 1px; height: 1px; left: -9999px; }
+.product-availability { margin-top: 8px !important; }
+
 a {
   color: inherit;
 }

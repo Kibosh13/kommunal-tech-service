@@ -1,0 +1,5337 @@
+{
+    "index": {
+        "f1": {
+            "label": "title: Выездной сервис и запчасти для мусоровозов",
+            "section": "Общие элементы",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/head/title/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f2": {
+            "label": "Описание страницы: Запчасти, ремонт и сервисное обслуживание для мусоровозов FAUN, KATMERCILER, HIDRO-MAK, CINAR,…",
+            "section": "Общие элементы",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/head/meta[4]/@content",
+                    "attribute": "content",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f3": {
+            "label": "Ссылка: #main",
+            "section": "Общие элементы",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f4": {
+            "label": "a: К содержанию",
+            "section": "Общие элементы",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f5": {
+            "label": "Ссылка: #about",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[1]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f6": {
+            "label": "a: О компании",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[1]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f7": {
+            "label": "Ссылка: #catalog",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[2]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f8": {
+            "label": "a: Каталог запчастей",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f9": {
+            "label": "Ссылка: #services",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[3]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f10": {
+            "label": "a: Услуги по ремонту и сервису",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[3]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f11": {
+            "label": "Ссылка: #request",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[1]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f12": {
+            "label": "a: Заявка на сервис или запчасти",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[1]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f13": {
+            "label": "Ссылка: #certificates",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[2]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f14": {
+            "label": "a: Сертификаты",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f15": {
+            "label": "Ссылка: #contacts",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[3]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f16": {
+            "label": "a: Контакты",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[3]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f17": {
+            "label": "h1: Каталог запчастей",
+            "section": "catalog",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[1]/h1/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f18": {
+            "label": "p: В нашем каталоге представлены основные запчасти, которые мы поставляем для коммунальной техник…",
+            "section": "catalog",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[1]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f19": {
+            "label": "Ссылка: katmerciler.html",
+            "section": "catalog",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[1]/a[1]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[1]/a[2]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f20": {
+            "label": "Изображение: assets/kat1.jpg",
+            "section": "catalog",
+            "type": "image",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[1]/a[1]/img/@src",
+                    "attribute": "src",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f21": {
+            "label": "Описание изображения: Мусоровоз KATMERCILER",
+            "section": "catalog",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[1]/a[1]/img/@alt",
+                    "attribute": "alt",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f22": {
+            "label": "h3: Запчасти для мусоровозов KATMERCILER (Турция)",
+            "section": "catalog",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[1]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f23": {
+            "label": "p: Установки KATMERCILER монтировались на мусоровозы производства Тверькоммаш и АВТОКРАФТ. Кузовн…",
+            "section": "catalog",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[1]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f24": {
+            "label": "a: Подробнее",
+            "section": "catalog",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[1]/a[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[2]/a[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[3]/a[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[4]/a[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[5]/a[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[6]/a[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f25": {
+            "label": "Ссылка: hidromak.html",
+            "section": "catalog",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[2]/a[1]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[2]/a[2]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f26": {
+            "label": "Изображение: assets/hm1.jpg",
+            "section": "catalog",
+            "type": "image",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[2]/a[1]/img/@src",
+                    "attribute": "src",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f27": {
+            "label": "Описание изображения: Мусоровоз HIDRO-MAK",
+            "section": "catalog",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[2]/a[1]/img/@alt",
+                    "attribute": "alt",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f28": {
+            "label": "h3: Запчасти для мусоровозов HIDRO-MAK (Турция)",
+            "section": "catalog",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[2]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f29": {
+            "label": "p: Установки HIDRO-MAK монтировались на мусоровозы производства Автобау. Кузовные элементы, гидра…",
+            "section": "catalog",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[2]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f30": {
+            "label": "Ссылка: catalog.html?brand=FAUN",
+            "section": "catalog",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[3]/a[1]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[3]/a[2]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f31": {
+            "label": "Изображение: assets/faun1.jpg",
+            "section": "catalog",
+            "type": "image",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[3]/a[1]/img/@src",
+                    "attribute": "src",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f32": {
+            "label": "Описание изображения: Мусоровоз FAUN",
+            "section": "catalog",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[3]/a[1]/img/@alt",
+                    "attribute": "alt",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f33": {
+            "label": "h3: Запчасти для мусоровозов FAUN (Германия)",
+            "section": "catalog",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[3]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f34": {
+            "label": "p: Оригинальные запчасти и качественные аналоги для мусоровозов FAUN.",
+            "section": "catalog",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[3]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f35": {
+            "label": "Ссылка: catalog.html?brand=CINAR",
+            "section": "catalog",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[4]/a[1]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[4]/a[2]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f36": {
+            "label": "Изображение: assets/cinar1.jpg",
+            "section": "catalog",
+            "type": "image",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[4]/a[1]/img/@src",
+                    "attribute": "src",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f37": {
+            "label": "Описание изображения: Мусоровоз CINAR",
+            "section": "catalog",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[4]/a[1]/img/@alt",
+                    "attribute": "alt",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f38": {
+            "label": "h3: Запчасти для мусоровозов CINAR (Турция)",
+            "section": "catalog",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[4]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f39": {
+            "label": "p: Установки CINAR монтировались на мусоровозы производства РИАТ, Тверькоммаш и ATLAS.",
+            "section": "catalog",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[4]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f40": {
+            "label": "Ссылка: catalog.html?brand=KADEME",
+            "section": "catalog",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[5]/a[1]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[5]/a[2]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f41": {
+            "label": "Изображение: assets/kademe1.jpeg",
+            "section": "catalog",
+            "type": "image",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[5]/a[1]/img/@src",
+                    "attribute": "src",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f42": {
+            "label": "Описание изображения: Мусоровоз KADEME",
+            "section": "catalog",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[5]/a[1]/img/@alt",
+                    "attribute": "alt",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f43": {
+            "label": "h3: Запчасти для мусоровозов KADEME (Турция)",
+            "section": "catalog",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[5]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f44": {
+            "label": "p: Установки KADEME монтировались на мусоровозы производства Экомтех, ЛБР и ЕМГ.",
+            "section": "catalog",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[5]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f45": {
+            "label": "Ссылка: catalog.html?brand=%D0%92%D0%B0%D0%BA%D1%83%D1%83%D0%BC%D0%BD%D1%8B%D0%B5%20%D0%BC%D0%B0%D1%88…",
+            "section": "catalog",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[6]/a[1]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[6]/a[2]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f46": {
+            "label": "Изображение: assets/vacuum.jpg",
+            "section": "catalog",
+            "type": "image",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[6]/a[1]/img/@src",
+                    "attribute": "src",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f47": {
+            "label": "Описание изображения: Вакуумная подметально-уборочная машина",
+            "section": "catalog",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[6]/a[1]/img/@alt",
+                    "attribute": "alt",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f48": {
+            "label": "h3: Запчасти для вакуумных пылесосов",
+            "section": "catalog",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[6]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f49": {
+            "label": "p: Запчасти для техники ERDEMLI, CEKSAN, KADEME и КО-326 производства Мценск.",
+            "section": "catalog",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/article[6]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f50": {
+            "label": "Ссылка: catalog.html",
+            "section": "catalog",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/p/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f51": {
+            "label": "a: Весь каталог запчастей",
+            "section": "catalog",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/p/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f52": {
+            "label": "h2: О компании",
+            "section": "about",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[2]/div/div/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f53": {
+            "label": "h3: ИП Блинов С.Е. — комплексная помощь для вашей спецтехники",
+            "section": "about",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[2]/div/div/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f54": {
+            "label": "p: Мы предлагаем услуги выездного сервиса и продажу запчастей для мусоровозов и вакуумных подмета…",
+            "section": "about",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[2]/div/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f55": {
+            "label": "h2: Заявка на сервис или запчасти",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/div/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f56": {
+            "label": "p: Оформите заявку, указав ваши контактные данные. Мы свяжемся с вами в кратчайшие сроки для обсу…",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/div/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f57": {
+            "label": "label: Имя",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/form/div[1]/label/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f58": {
+            "label": "label: Электронная почта",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/form/div[2]/label/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f59": {
+            "label": "label: Телефон",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/form/div[3]/label/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f60": {
+            "label": "label: Комментарий",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/form/div[4]/label/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f61": {
+            "label": "h2: Выездной сервис и запчасти для мусоровозов",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[4]/div[1]/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f62": {
+            "label": "p: Предлагаем выездной сервис, поставки и изготовление запчастей для мусоровозов различных произв…",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[4]/div[1]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f63": {
+            "label": "a: Позвоните мне!",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[4]/div[1]/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f64": {
+            "label": "Изображение: assets/hero.jpeg",
+            "section": "Главный баннер",
+            "type": "image",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[4]/div[2]/img/@src",
+                    "attribute": "src",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f65": {
+            "label": "Описание изображения: Ремонт коммунальной техники в сервисном цехе",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[4]/div[2]/img/@alt",
+                    "attribute": "alt",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f66": {
+            "label": "h2: Услуги по ремонту",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[1]/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f67": {
+            "label": "p: Мы предлагаем полный спектр услуг по ремонту и дооборудованию мусоровозов.",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[1]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f68": {
+            "label": "h3: Выездная диагностика",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[1]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f69": {
+            "label": "p: Первичная проверка состояния всех систем мусоровоза.",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[1]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f70": {
+            "label": "h3: Ремонт электрической системы",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[2]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f71": {
+            "label": "p: Диагностика, ремонт, замена систем управления, реле, датчиков, пультов и других элементов.",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[2]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f72": {
+            "label": "h3: Ремонт, замена основных узлов, плит",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[3]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f73": {
+            "label": "p: Изготовление, замена и ремонт заднего борта, выталкивающей и прессующей плит, ножа, кантовател…",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[3]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f74": {
+            "label": "h3: Дооборудование",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[4]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f75": {
+            "label": "p: Установка, замена и ремонт блоков управления оборотами двигателя, освещения и камер обзора.",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[4]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f76": {
+            "label": "h3: Ремонт гидравлической системы",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[5]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f77": {
+            "label": "p: Диагностика, ремонт и замена КОМ, насосов, гидрораспределителей и гидроцилиндров.",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[5]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f78": {
+            "label": "h3: Выездное техническое обслуживание",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[6]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f79": {
+            "label": "p: Плановое выездное ТО для поддержания исправности всех систем мусоровоза.",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[6]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f80": {
+            "label": "h2: Сертификаты",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[1]/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f81": {
+            "label": "p: Сертификаты ИП Блинова С.Е. от производителей коммунальной техники.",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[1]/p[1]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f82": {
+            "label": "p: Нажмите на изображение, чтобы открыть оригинальный документ в полном размере.",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[1]/p[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f83": {
+            "label": "Ссылка: assets/certificate-tverkommash.pdf",
+            "section": "certificates",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/div/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f84": {
+            "label": "Изображение: assets/certificate-tverkommash.jpg",
+            "section": "certificates",
+            "type": "image",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/a/img/@src",
+                    "attribute": "src",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f85": {
+            "label": "Описание изображения: Сертификат ТверьКомМаш: ИП Блинов С.Е. — официальный представитель по техническому обслуживани…",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/a/img/@alt",
+                    "attribute": "alt",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f86": {
+            "label": "h3: ТверьКомМаш",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/div/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f87": {
+            "label": "p: Официальный представитель. Техническое обслуживание и гарантийный ремонт мусоровозов.",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/div/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f88": {
+            "label": "a: Открыть PDF",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/div/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/div/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/div/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f89": {
+            "label": "span: сертификата ТверьКомМаш (новая вкладка)",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/div/a/span/text()",
+                    "attribute": null,
+                    "prefix": " ",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f90": {
+            "label": "Ссылка: assets/certificate-ecotech.pdf",
+            "section": "certificates",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/div/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f91": {
+            "label": "Изображение: assets/certificate-ecotech.jpg",
+            "section": "certificates",
+            "type": "image",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/a/img/@src",
+                    "attribute": "src",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f92": {
+            "label": "Описание изображения: Сертификат Экомтех-Трейдинг: ИП Блинов С.Е. — официальный представитель по гарантийному ремонт…",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/a/img/@alt",
+                    "attribute": "alt",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f93": {
+            "label": "h3: Экомтех-Трейдинг",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/div/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f94": {
+            "label": "p: Официальный представитель. Гарантийный ремонт и техническое обслуживание мусоровозов.",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/div/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f95": {
+            "label": "span: сертификата Экомтех-Трейдинг (новая вкладка)",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/div/a/span/text()",
+                    "attribute": null,
+                    "prefix": " ",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f96": {
+            "label": "Ссылка: assets/certificate-wernox.pdf",
+            "section": "certificates",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/div/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f97": {
+            "label": "Изображение: assets/certificate-wernox.jpg",
+            "section": "certificates",
+            "type": "image",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/a/img/@src",
+                    "attribute": "src",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f98": {
+            "label": "Описание изображения: Сертификат WERNOX: ИП Блинов Сергей Евгеньевич — официальный авторизованный сервисный центр за…",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/a/img/@alt",
+                    "attribute": "alt",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f99": {
+            "label": "h3: WERNOX",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/div/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f100": {
+            "label": "p: Авторизованный сервисный центр. Диагностика, обслуживание, ремонт и оригинальные запчасти.",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/div/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f101": {
+            "label": "span: сертификата WERNOX (новая вкладка)",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/div/a/span/text()",
+                    "attribute": null,
+                    "prefix": " ",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f102": {
+            "label": "h2: Контакты",
+            "section": "contacts",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[7]/div/div/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f103": {
+            "label": "p: Мы всегда на связи, чтобы помочь вам.",
+            "section": "contacts",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[7]/div/div/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f104": {
+            "label": "span: Телефон:",
+            "section": "contacts",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[7]/div/address/span[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": " "
+                }
+            ]
+        },
+        "f105": {
+            "label": "span: Электронная почта:",
+            "section": "contacts",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[7]/div/address/span[3]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": " "
+                }
+            ]
+        },
+        "f106": {
+            "label": "span: ©",
+            "section": "Подвал",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/footer/div/span/text()[1]",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": " "
+                }
+            ]
+        },
+        "f107": {
+            "label": "Ссылка: #main",
+            "section": "Подвал",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/footer/div/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f108": {
+            "label": "a: Наверх",
+            "section": "Подвал",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/footer/div/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f109": {
+            "label": "button: ×",
+            "section": "Общие элементы",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/div/div/button/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f110": {
+            "label": "Изображение: assets/faun1.jpg",
+            "section": "Общие элементы",
+            "type": "image",
+            "bindings": [
+                {
+                    "path": "/html/body/div/div/div[1]/img/@src",
+                    "attribute": "src",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f111": {
+            "label": "Ссылка: #request",
+            "section": "Общие элементы",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/div/div/div[2]/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f112": {
+            "label": "a: Оставить заявку",
+            "section": "Общие элементы",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/div/div/div[2]/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        }
+    },
+    "hidromak": {
+        "f1": {
+            "label": "title: Запчасти для мусоровозов HIDRO-MAK",
+            "section": "Общие элементы",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/head/title/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f2": {
+            "label": "Описание страницы: Запчасти для мусоровозов HIDRO-MAK: основные детали, кантователи, выталкивающие плиты, сервис …",
+            "section": "Общие элементы",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/head/meta[4]/@content",
+                    "attribute": "content",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f3": {
+            "label": "Ссылка: #main",
+            "section": "Общие элементы",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f4": {
+            "label": "a: К содержанию",
+            "section": "Общие элементы",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f5": {
+            "label": "Ссылка: #about",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[1]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f6": {
+            "label": "a: О компании",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[1]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f7": {
+            "label": "Ссылка: #catalog",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[2]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f8": {
+            "label": "a: Каталог запчастей",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f9": {
+            "label": "Ссылка: #services",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[3]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f10": {
+            "label": "a: Услуги по ремонту и сервису",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[3]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f11": {
+            "label": "Ссылка: #request",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[1]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f12": {
+            "label": "a: Заявка на сервис или запчасти",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[1]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f13": {
+            "label": "Ссылка: #certificates",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[2]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f14": {
+            "label": "a: Сертификаты",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f15": {
+            "label": "Ссылка: #contacts",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[3]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f16": {
+            "label": "a: Контакты",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[3]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f17": {
+            "label": "h1: Запчасти для мусоровозов HIDRO-MAK",
+            "section": "catalog",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[1]/h1/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f18": {
+            "label": "h2: О компании",
+            "section": "about",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[2]/div/div/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f19": {
+            "label": "h3: ИП Блинов С.Е. — комплексная помощь для вашей спецтехники",
+            "section": "about",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[2]/div/div/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f20": {
+            "label": "p: Мы предлагаем услуги выездного сервиса и продажу запчастей для мусоровозов. Наша миссия — обес…",
+            "section": "about",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[2]/div/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f21": {
+            "label": "h2: Заявка на сервис или запчасти",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/div/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f22": {
+            "label": "p: Оформите заявку, указав ваши контактные данные. Мы свяжемся с вами в кратчайшие сроки для обсу…",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/div/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f23": {
+            "label": "label: Имя",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/form/div[1]/label/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f24": {
+            "label": "label: Электронная почта",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/form/div[2]/label/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f25": {
+            "label": "label: Телефон",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/form/div[3]/label/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f26": {
+            "label": "label: Комментарий",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/form/div[4]/label/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f27": {
+            "label": "h2: Выездной сервис и запчасти для мусоровозов",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[4]/div[1]/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f28": {
+            "label": "p: Предлагаем выездной сервис, поставки и изготовление запчастей для мусоровозов различных произв…",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[4]/div[1]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f29": {
+            "label": "a: Позвоните мне!",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[4]/div[1]/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f30": {
+            "label": "Изображение: assets/hero.jpeg",
+            "section": "Главный баннер",
+            "type": "image",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[4]/div[2]/img/@src",
+                    "attribute": "src",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f31": {
+            "label": "Описание изображения: Ремонт коммунальной техники в сервисном цехе",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[4]/div[2]/img/@alt",
+                    "attribute": "alt",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f32": {
+            "label": "h2: Услуги по ремонту",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[1]/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f33": {
+            "label": "p: Мы предлагаем полный спектр услуг по ремонту и дооборудованию мусоровозов.",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[1]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f34": {
+            "label": "h3: Выездная диагностика",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[1]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f35": {
+            "label": "p: Первичная проверка состояния всех систем мусоровоза.",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[1]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f36": {
+            "label": "h3: Ремонт электрической системы",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[2]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f37": {
+            "label": "p: Диагностика, ремонт, замена систем управления, реле, датчиков, пультов и других элементов.",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[2]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f38": {
+            "label": "h3: Ремонт, замена основных узлов, плит",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[3]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f39": {
+            "label": "p: Изготовление, замена и ремонт заднего борта, выталкивающей и прессующей плит, ножа, кантовател…",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[3]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f40": {
+            "label": "h3: Дооборудование",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[4]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f41": {
+            "label": "p: Установка, замена и ремонт систем подгазовки, освещения и камер обзора.",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[4]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f42": {
+            "label": "h3: Ремонт гидравлической системы",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[5]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f43": {
+            "label": "p: Диагностика, ремонт и замена КОМ, насосов, гидрораспределителей и гидроцилиндров.",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[5]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f44": {
+            "label": "h3: Выездное техническое обслуживание",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[6]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f45": {
+            "label": "p: Плановое выездное ТО для поддержания исправности всех систем мусоровоза.",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[6]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f46": {
+            "label": "h2: Сертификаты",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[1]/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f47": {
+            "label": "p: Сертификаты ИП Блинова С.Е. от производителей коммунальной техники.",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[1]/p[1]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f48": {
+            "label": "p: Нажмите на изображение, чтобы открыть оригинальный документ в полном размере.",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[1]/p[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f49": {
+            "label": "Ссылка: assets/certificate-tverkommash.pdf",
+            "section": "certificates",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/div/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f50": {
+            "label": "Изображение: assets/certificate-tverkommash.jpg",
+            "section": "certificates",
+            "type": "image",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/a/img/@src",
+                    "attribute": "src",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f51": {
+            "label": "Описание изображения: Сертификат ТверьКомМаш: ИП Блинов С.Е. — официальный представитель по техническому обслуживани…",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/a/img/@alt",
+                    "attribute": "alt",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f52": {
+            "label": "h3: ТверьКомМаш",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/div/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f53": {
+            "label": "p: Официальный представитель. Техническое обслуживание и гарантийный ремонт мусоровозов.",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/div/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f54": {
+            "label": "a: Открыть PDF",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/div/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/div/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/div/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f55": {
+            "label": "span: сертификата ТверьКомМаш (новая вкладка)",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/div/a/span/text()",
+                    "attribute": null,
+                    "prefix": " ",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f56": {
+            "label": "Ссылка: assets/certificate-ecotech.pdf",
+            "section": "certificates",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/div/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f57": {
+            "label": "Изображение: assets/certificate-ecotech.jpg",
+            "section": "certificates",
+            "type": "image",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/a/img/@src",
+                    "attribute": "src",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f58": {
+            "label": "Описание изображения: Сертификат Экомтех-Трейдинг: ИП Блинов С.Е. — официальный представитель по гарантийному ремонт…",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/a/img/@alt",
+                    "attribute": "alt",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f59": {
+            "label": "h3: Экомтех-Трейдинг",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/div/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f60": {
+            "label": "p: Официальный представитель. Гарантийный ремонт и техническое обслуживание мусоровозов.",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/div/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f61": {
+            "label": "span: сертификата Экомтех-Трейдинг (новая вкладка)",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/div/a/span/text()",
+                    "attribute": null,
+                    "prefix": " ",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f62": {
+            "label": "Ссылка: assets/certificate-wernox.pdf",
+            "section": "certificates",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/div/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f63": {
+            "label": "Изображение: assets/certificate-wernox.jpg",
+            "section": "certificates",
+            "type": "image",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/a/img/@src",
+                    "attribute": "src",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f64": {
+            "label": "Описание изображения: Сертификат WERNOX: ИП Блинов Сергей Евгеньевич — официальный авторизованный сервисный центр за…",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/a/img/@alt",
+                    "attribute": "alt",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f65": {
+            "label": "h3: WERNOX",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/div/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f66": {
+            "label": "p: Авторизованный сервисный центр. Диагностика, обслуживание, ремонт и оригинальные запчасти.",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/div/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f67": {
+            "label": "span: сертификата WERNOX (новая вкладка)",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/div/a/span/text()",
+                    "attribute": null,
+                    "prefix": " ",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f68": {
+            "label": "h2: Контакты",
+            "section": "contacts",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[7]/div/div/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f69": {
+            "label": "p: Мы всегда на связи, чтобы помочь вам.",
+            "section": "contacts",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[7]/div/div/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f70": {
+            "label": "span: Телефон:",
+            "section": "contacts",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[7]/div/address/span[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": " "
+                }
+            ]
+        },
+        "f71": {
+            "label": "span: Электронная почта:",
+            "section": "contacts",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[7]/div/address/span[3]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": " "
+                }
+            ]
+        },
+        "f72": {
+            "label": "span: ©",
+            "section": "Подвал",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/footer/div/span/text()[1]",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": " "
+                }
+            ]
+        },
+        "f73": {
+            "label": "Ссылка: #main",
+            "section": "Подвал",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/footer/div/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f74": {
+            "label": "a: Наверх",
+            "section": "Подвал",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/footer/div/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        }
+    },
+    "katmerciler": {
+        "f1": {
+            "label": "title: Запчасти для мусоровозов KATMERCILER",
+            "section": "Общие элементы",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/head/title/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f2": {
+            "label": "Описание страницы: Каталог запчастей для мусоровозов KATMERCILER: гидравлика, блоки управления, камеры, мониторы,…",
+            "section": "Общие элементы",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/head/meta[4]/@content",
+                    "attribute": "content",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f3": {
+            "label": "Ссылка: #main",
+            "section": "Общие элементы",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f4": {
+            "label": "a: К содержанию",
+            "section": "Общие элементы",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f5": {
+            "label": "Ссылка: #about",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[1]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f6": {
+            "label": "a: О компании",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[1]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f7": {
+            "label": "Ссылка: #catalog",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[2]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f8": {
+            "label": "a: Каталог запчастей",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f9": {
+            "label": "Ссылка: #services",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[3]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f10": {
+            "label": "a: Услуги по ремонту и сервису",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[3]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f11": {
+            "label": "Ссылка: #request",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[1]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f12": {
+            "label": "a: Заявка на сервис или запчасти",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[1]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f13": {
+            "label": "Ссылка: #certificates",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[2]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f14": {
+            "label": "a: Сертификаты",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f15": {
+            "label": "Ссылка: #contacts",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[3]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f16": {
+            "label": "a: Контакты",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[3]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f17": {
+            "label": "h1: Запчасти для мусоровозов KATMERCILER",
+            "section": "catalog",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[1]/h1/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f18": {
+            "label": "h2: О компании",
+            "section": "about",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[2]/div/div/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f19": {
+            "label": "h3: ИП Блинов С.Е. — комплексная помощь для вашей спецтехники",
+            "section": "about",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[2]/div/div/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f20": {
+            "label": "p: Мы предлагаем услуги выездного сервиса и продажу запчастей для мусоровозов. Наша миссия — обес…",
+            "section": "about",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[2]/div/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f21": {
+            "label": "h2: Заявка на сервис или запчасти",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/div/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f22": {
+            "label": "p: Оформите заявку, указав ваши контактные данные. Мы свяжемся с вами в кратчайшие сроки для обсу…",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/div/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f23": {
+            "label": "label: Имя",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/form/div[1]/label/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f24": {
+            "label": "label: Электронная почта",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/form/div[2]/label/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f25": {
+            "label": "label: Телефон",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/form/div[3]/label/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f26": {
+            "label": "label: Комментарий",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/form/div[4]/label/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f27": {
+            "label": "h2: Выездной сервис и запчасти для мусоровозов",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[4]/div[1]/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f28": {
+            "label": "p: Предлагаем выездной сервис, поставки и изготовление запчастей для мусоровозов различных произв…",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[4]/div[1]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f29": {
+            "label": "a: Позвоните мне!",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[4]/div[1]/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f30": {
+            "label": "Изображение: assets/hero.jpeg",
+            "section": "Главный баннер",
+            "type": "image",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[4]/div[2]/img/@src",
+                    "attribute": "src",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f31": {
+            "label": "Описание изображения: Ремонт коммунальной техники в сервисном цехе",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[4]/div[2]/img/@alt",
+                    "attribute": "alt",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f32": {
+            "label": "h2: Услуги по ремонту",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[1]/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f33": {
+            "label": "p: Мы предлагаем полный спектр услуг по ремонту и дооборудованию мусоровозов.",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[1]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f34": {
+            "label": "h3: Выездная диагностика",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[1]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f35": {
+            "label": "p: Первичная проверка состояния всех систем мусоровоза.",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[1]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f36": {
+            "label": "h3: Ремонт электрической системы",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[2]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f37": {
+            "label": "p: Диагностика, ремонт, замена систем управления, реле, датчиков, пультов и других элементов.",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[2]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f38": {
+            "label": "h3: Ремонт, замена основных узлов, плит",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[3]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f39": {
+            "label": "p: Изготовление, замена и ремонт заднего борта, выталкивающей и прессующей плит, ножа, кантовател…",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[3]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f40": {
+            "label": "h3: Дооборудование",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[4]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f41": {
+            "label": "p: Установка, замена и ремонт систем подгазовки, освещения и камер обзора.",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[4]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f42": {
+            "label": "h3: Ремонт гидравлической системы",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[5]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f43": {
+            "label": "p: Диагностика, ремонт и замена КОМ, насосов, гидрораспределителей и гидроцилиндров.",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[5]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f44": {
+            "label": "h3: Выездное техническое обслуживание",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[6]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f45": {
+            "label": "p: Плановое выездное ТО для поддержания исправности всех систем мусоровоза.",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[6]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f46": {
+            "label": "h2: Сертификаты",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[1]/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f47": {
+            "label": "p: Сертификаты ИП Блинова С.Е. от производителей коммунальной техники.",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[1]/p[1]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f48": {
+            "label": "p: Нажмите на изображение, чтобы открыть оригинальный документ в полном размере.",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[1]/p[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f49": {
+            "label": "Ссылка: assets/certificate-tverkommash.pdf",
+            "section": "certificates",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/div/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f50": {
+            "label": "Изображение: assets/certificate-tverkommash.jpg",
+            "section": "certificates",
+            "type": "image",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/a/img/@src",
+                    "attribute": "src",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f51": {
+            "label": "Описание изображения: Сертификат ТверьКомМаш: ИП Блинов С.Е. — официальный представитель по техническому обслуживани…",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/a/img/@alt",
+                    "attribute": "alt",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f52": {
+            "label": "h3: ТверьКомМаш",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/div/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f53": {
+            "label": "p: Официальный представитель. Техническое обслуживание и гарантийный ремонт мусоровозов.",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/div/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f54": {
+            "label": "a: Открыть PDF",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/div/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/div/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/div/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f55": {
+            "label": "span: сертификата ТверьКомМаш (новая вкладка)",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/div/a/span/text()",
+                    "attribute": null,
+                    "prefix": " ",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f56": {
+            "label": "Ссылка: assets/certificate-ecotech.pdf",
+            "section": "certificates",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/div/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f57": {
+            "label": "Изображение: assets/certificate-ecotech.jpg",
+            "section": "certificates",
+            "type": "image",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/a/img/@src",
+                    "attribute": "src",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f58": {
+            "label": "Описание изображения: Сертификат Экомтех-Трейдинг: ИП Блинов С.Е. — официальный представитель по гарантийному ремонт…",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/a/img/@alt",
+                    "attribute": "alt",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f59": {
+            "label": "h3: Экомтех-Трейдинг",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/div/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f60": {
+            "label": "p: Официальный представитель. Гарантийный ремонт и техническое обслуживание мусоровозов.",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/div/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f61": {
+            "label": "span: сертификата Экомтех-Трейдинг (новая вкладка)",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/div/a/span/text()",
+                    "attribute": null,
+                    "prefix": " ",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f62": {
+            "label": "Ссылка: assets/certificate-wernox.pdf",
+            "section": "certificates",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/div/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f63": {
+            "label": "Изображение: assets/certificate-wernox.jpg",
+            "section": "certificates",
+            "type": "image",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/a/img/@src",
+                    "attribute": "src",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f64": {
+            "label": "Описание изображения: Сертификат WERNOX: ИП Блинов Сергей Евгеньевич — официальный авторизованный сервисный центр за…",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/a/img/@alt",
+                    "attribute": "alt",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f65": {
+            "label": "h3: WERNOX",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/div/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f66": {
+            "label": "p: Авторизованный сервисный центр. Диагностика, обслуживание, ремонт и оригинальные запчасти.",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/div/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f67": {
+            "label": "span: сертификата WERNOX (новая вкладка)",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/div/a/span/text()",
+                    "attribute": null,
+                    "prefix": " ",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f68": {
+            "label": "h2: Контакты",
+            "section": "contacts",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[7]/div/div/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f69": {
+            "label": "p: Мы всегда на связи, чтобы помочь вам.",
+            "section": "contacts",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[7]/div/div/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f70": {
+            "label": "span: Телефон:",
+            "section": "contacts",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[7]/div/address/span[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": " "
+                }
+            ]
+        },
+        "f71": {
+            "label": "span: Электронная почта:",
+            "section": "contacts",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[7]/div/address/span[3]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": " "
+                }
+            ]
+        },
+        "f72": {
+            "label": "span: ©",
+            "section": "Подвал",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/footer/div/span/text()[1]",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": " "
+                }
+            ]
+        },
+        "f73": {
+            "label": "Ссылка: #main",
+            "section": "Подвал",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/footer/div/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f74": {
+            "label": "a: Наверх",
+            "section": "Подвал",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/footer/div/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        }
+    },
+    "catalog": {
+        "f1": {
+            "label": "title: Каталог всех запчастей",
+            "section": "Общие элементы",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/head/title/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f2": {
+            "label": "Описание страницы: Каталог запчастей для коммунальной техники. Фотографии, описание, характеристики, цена и налич…",
+            "section": "Общие элементы",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/head/meta[4]/@content",
+                    "attribute": "content",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f3": {
+            "label": "Ссылка: #main",
+            "section": "Общие элементы",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f4": {
+            "label": "a: К содержанию",
+            "section": "Общие элементы",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f5": {
+            "label": "Ссылка: #about",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[1]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f6": {
+            "label": "a: О компании",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[1]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f7": {
+            "label": "Ссылка: #catalog",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[2]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f8": {
+            "label": "a: Каталог запчастей",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f9": {
+            "label": "Ссылка: #services",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[3]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f10": {
+            "label": "a: Услуги по ремонту и сервису",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[3]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f11": {
+            "label": "Ссылка: #request",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[1]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f12": {
+            "label": "a: Заявка на сервис или запчасти",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[1]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f13": {
+            "label": "Ссылка: #certificates",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[2]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f14": {
+            "label": "a: Сертификаты",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f15": {
+            "label": "Ссылка: #contacts",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[3]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f16": {
+            "label": "a: Контакты",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[3]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f17": {
+            "label": "h1: Каталог всех запчастей",
+            "section": "catalog",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[1]/h1/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f18": {
+            "label": "h2: О компании",
+            "section": "about",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[2]/div/div/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f19": {
+            "label": "h3: ИП Блинов С.Е. — комплексная помощь для вашей спецтехники",
+            "section": "about",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[2]/div/div/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f20": {
+            "label": "p: Мы предлагаем услуги выездного сервиса и продажу запчастей для мусоровозов. Наша миссия — обес…",
+            "section": "about",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[2]/div/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f21": {
+            "label": "h2: Заявка на сервис или запчасти",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/div/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f22": {
+            "label": "p: Оформите заявку, указав ваши контактные данные. Мы свяжемся с вами в кратчайшие сроки для обсу…",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/div/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f23": {
+            "label": "label: Имя",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/form/div[1]/label/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f24": {
+            "label": "label: Электронная почта",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/form/div[2]/label/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f25": {
+            "label": "label: Телефон",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/form/div[3]/label/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f26": {
+            "label": "label: Комментарий",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/form/div[4]/label/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f27": {
+            "label": "h2: Выездной сервис и запчасти для мусоровозов",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[4]/div[1]/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f28": {
+            "label": "p: Предлагаем выездной сервис, поставки и изготовление запчастей для мусоровозов различных произв…",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[4]/div[1]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f29": {
+            "label": "a: Позвоните мне!",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[4]/div[1]/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f30": {
+            "label": "Изображение: assets/hero.jpeg",
+            "section": "Главный баннер",
+            "type": "image",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[4]/div[2]/img/@src",
+                    "attribute": "src",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f31": {
+            "label": "Описание изображения: Ремонт коммунальной техники в сервисном цехе",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[4]/div[2]/img/@alt",
+                    "attribute": "alt",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f32": {
+            "label": "h2: Услуги по ремонту",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[1]/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f33": {
+            "label": "p: Мы предлагаем полный спектр услуг по ремонту и дооборудованию мусоровозов.",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[1]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f34": {
+            "label": "h3: Выездная диагностика",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[1]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f35": {
+            "label": "p: Первичная проверка состояния всех систем мусоровоза.",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[1]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f36": {
+            "label": "h3: Ремонт электрической системы",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[2]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f37": {
+            "label": "p: Диагностика, ремонт, замена систем управления, реле, датчиков, пультов и других элементов.",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[2]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f38": {
+            "label": "h3: Ремонт, замена основных узлов, плит",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[3]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f39": {
+            "label": "p: Изготовление, замена и ремонт заднего борта, выталкивающей и прессующей плит, ножа, кантовател…",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[3]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f40": {
+            "label": "h3: Дооборудование",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[4]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f41": {
+            "label": "p: Установка, замена и ремонт систем подгазовки, освещения и камер обзора.",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[4]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f42": {
+            "label": "h3: Ремонт гидравлической системы",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[5]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f43": {
+            "label": "p: Диагностика, ремонт и замена КОМ, насосов, гидрораспределителей и гидроцилиндров.",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[5]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f44": {
+            "label": "h3: Выездное техническое обслуживание",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[6]/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f45": {
+            "label": "p: Плановое выездное ТО для поддержания исправности всех систем мусоровоза.",
+            "section": "services",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[5]/div/div[2]/article[6]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f46": {
+            "label": "h2: Сертификаты",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[1]/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f47": {
+            "label": "p: Сертификаты ИП Блинова С.Е. от производителей коммунальной техники.",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[1]/p[1]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f48": {
+            "label": "p: Нажмите на изображение, чтобы открыть оригинальный документ в полном размере.",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[1]/p[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f49": {
+            "label": "Ссылка: assets/certificate-tverkommash.pdf",
+            "section": "certificates",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/div/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f50": {
+            "label": "Изображение: assets/certificate-tverkommash.jpg",
+            "section": "certificates",
+            "type": "image",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/a/img/@src",
+                    "attribute": "src",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f51": {
+            "label": "Описание изображения: Сертификат ТверьКомМаш: ИП Блинов С.Е. — официальный представитель по техническому обслуживани…",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/a/img/@alt",
+                    "attribute": "alt",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f52": {
+            "label": "h3: ТверьКомМаш",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/div/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f53": {
+            "label": "p: Официальный представитель. Техническое обслуживание и гарантийный ремонт мусоровозов.",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/div/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f54": {
+            "label": "a: Открыть PDF",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/div/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/div/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/div/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f55": {
+            "label": "span: сертификата ТверьКомМаш (новая вкладка)",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[1]/div/a/span/text()",
+                    "attribute": null,
+                    "prefix": " ",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f56": {
+            "label": "Ссылка: assets/certificate-ecotech.pdf",
+            "section": "certificates",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/div/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f57": {
+            "label": "Изображение: assets/certificate-ecotech.jpg",
+            "section": "certificates",
+            "type": "image",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/a/img/@src",
+                    "attribute": "src",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f58": {
+            "label": "Описание изображения: Сертификат Экомтех-Трейдинг: ИП Блинов С.Е. — официальный представитель по гарантийному ремонт…",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/a/img/@alt",
+                    "attribute": "alt",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f59": {
+            "label": "h3: Экомтех-Трейдинг",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/div/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f60": {
+            "label": "p: Официальный представитель. Гарантийный ремонт и техническое обслуживание мусоровозов.",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/div/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f61": {
+            "label": "span: сертификата Экомтех-Трейдинг (новая вкладка)",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[2]/div/a/span/text()",
+                    "attribute": null,
+                    "prefix": " ",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f62": {
+            "label": "Ссылка: assets/certificate-wernox.pdf",
+            "section": "certificates",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/div/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f63": {
+            "label": "Изображение: assets/certificate-wernox.jpg",
+            "section": "certificates",
+            "type": "image",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/a/img/@src",
+                    "attribute": "src",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f64": {
+            "label": "Описание изображения: Сертификат WERNOX: ИП Блинов Сергей Евгеньевич — официальный авторизованный сервисный центр за…",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/a/img/@alt",
+                    "attribute": "alt",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f65": {
+            "label": "h3: WERNOX",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/div/h3/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f66": {
+            "label": "p: Авторизованный сервисный центр. Диагностика, обслуживание, ремонт и оригинальные запчасти.",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/div/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f67": {
+            "label": "span: сертификата WERNOX (новая вкладка)",
+            "section": "certificates",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[6]/div/div[2]/article[3]/div/a/span/text()",
+                    "attribute": null,
+                    "prefix": " ",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f68": {
+            "label": "h2: Контакты",
+            "section": "contacts",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[7]/div/div/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f69": {
+            "label": "p: Мы всегда на связи, чтобы помочь вам.",
+            "section": "contacts",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[7]/div/div/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f70": {
+            "label": "span: Телефон:",
+            "section": "contacts",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[7]/div/address/span[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": " "
+                }
+            ]
+        },
+        "f71": {
+            "label": "span: Электронная почта:",
+            "section": "contacts",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[7]/div/address/span[3]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": " "
+                }
+            ]
+        },
+        "f72": {
+            "label": "span: ©",
+            "section": "Подвал",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/footer/div/span/text()[1]",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": " "
+                }
+            ]
+        },
+        "f73": {
+            "label": "Ссылка: #main",
+            "section": "Подвал",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/footer/div/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f74": {
+            "label": "a: Наверх",
+            "section": "Подвал",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/footer/div/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        }
+    },
+    "product": {
+        "f1": {
+            "label": "title: Карточка запчасти — Выездной сервис коммунальной техники",
+            "section": "Общие элементы",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/head/title/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f2": {
+            "label": "Описание страницы: Фотографии, описание и характеристики запчастей для мусоровозов. Подбор по артикулу и VIN.",
+            "section": "Общие элементы",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/head/meta[4]/@content",
+                    "attribute": "content",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f3": {
+            "label": "Ссылка: #main",
+            "section": "Общие элементы",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f4": {
+            "label": "a: К содержанию",
+            "section": "Общие элементы",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f5": {
+            "label": "Ссылка: index.html#about",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[1]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f6": {
+            "label": "a: О компании",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[1]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f7": {
+            "label": "Ссылка: index.html#catalog",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[2]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f8": {
+            "label": "a: Каталог запчастей",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f9": {
+            "label": "Ссылка: index.html#services",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[3]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f10": {
+            "label": "a: Услуги по ремонту и сервису",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[1]/a[3]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f11": {
+            "label": "Ссылка: #request",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[1]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f12": {
+            "label": "a: Заявка на сервис или запчасти",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[1]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f13": {
+            "label": "Ссылка: index.html#certificates",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[2]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f14": {
+            "label": "a: Сертификаты",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f15": {
+            "label": "Ссылка: #contacts",
+            "section": "Меню",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[3]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f16": {
+            "label": "a: Контакты",
+            "section": "Меню",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/header/div/div/nav[2]/a[3]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f17": {
+            "label": "Ссылка: index.html",
+            "section": "Главный баннер",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/nav/a[1]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f18": {
+            "label": "a: Главная",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/nav/a[1]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f19": {
+            "label": "span: /",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/nav/span[1]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[1]/div/nav/span[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f20": {
+            "label": "Ссылка: index.html#catalog",
+            "section": "Главный баннер",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/nav/a[2]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[1]/div/div[1]/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f21": {
+            "label": "a: Каталог запчастей",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/nav/a[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f22": {
+            "label": "span: Карточка запчасти",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/nav/span[3]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f23": {
+            "label": "h1: Запчасть не найдена",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[1]/h1/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f24": {
+            "label": "p: Выберите деталь из каталога или свяжитесь с нами для подбора.",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[1]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f25": {
+            "label": "a: Перейти в каталог",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[1]/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f26": {
+            "label": "span: ＋ Увеличить",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/div[1]/section/button/span/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f27": {
+            "label": "span: Стоимость",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/div[1]/div/div[2]/span/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f28": {
+            "label": "strong: По запросу",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/div[1]/div/div[2]/strong/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f29": {
+            "label": "p: Наличие, срок поставки и комплектацию уточним после проверки совместимости.",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/div[1]/div/div[2]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f30": {
+            "label": "Ссылка: #request",
+            "section": "Главный баннер",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/div[1]/div/div[2]/a[1]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/section/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f31": {
+            "label": "a: Запросить цену и наличие",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/div[1]/div/div[2]/a[1]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f32": {
+            "label": "p: Перед заказом сверяем артикул, модификацию техники и подключение детали. Фотография служит ори…",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/div[1]/div/p[3]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f33": {
+            "label": "Ссылка: #description",
+            "section": "Главный баннер",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/nav/a[1]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f34": {
+            "label": "a: Описание",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/nav/a[1]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/div[2]/section[1]/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f35": {
+            "label": "Ссылка: #specifications",
+            "section": "Главный баннер",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/nav/a[2]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f36": {
+            "label": "a: Характеристики",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/nav/a[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                },
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/div[2]/section[2]/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f37": {
+            "label": "Ссылка: #selection",
+            "section": "Главный баннер",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/nav/a[3]/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f38": {
+            "label": "a: Подбор и заказ",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/nav/a[3]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f39": {
+            "label": "p: Указаны данные исходного каталога. Неопубликованные технические параметры подтверждаются при п…",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/div[2]/section[2]/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f40": {
+            "label": "p: Поможем подобрать",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/section/div/p[1]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f41": {
+            "label": "h2: Нужна именно ваша модификация?",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/section/div/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f42": {
+            "label": "p: Добавьте в заявку данные для проверки совместимости:",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/section/div/p[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f43": {
+            "label": "a: Оставить заявку на подбор",
+            "section": "Главный баннер",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[1]/div/div[2]/section/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f44": {
+            "label": "h2: Заявка на запчасть",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[2]/div/div/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f45": {
+            "label": "p: Выбранная деталь уже указана в комментарии. Добавьте модель техники, VIN и данные для подбора.",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[2]/div/div/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f46": {
+            "label": "label: Имя",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[2]/div/form/div[1]/label/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f47": {
+            "label": "label: Электронная почта",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[2]/div/form/div[2]/label/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f48": {
+            "label": "label: Телефон",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[2]/div/form/div[3]/label/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f49": {
+            "label": "label: Запчасть и данные техники",
+            "section": "request",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[2]/div/form/div[4]/label/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f50": {
+            "label": "h2: Контакты",
+            "section": "contacts",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/div/h2/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f51": {
+            "label": "p: Подбор запчастей и выездной сервис коммунальной техники.",
+            "section": "contacts",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/div/p/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f52": {
+            "label": "span: Телефон:",
+            "section": "contacts",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/address/span[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": " "
+                }
+            ]
+        },
+        "f53": {
+            "label": "span: Электронная почта:",
+            "section": "contacts",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/main/section[3]/div/address/span[3]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": " "
+                }
+            ]
+        },
+        "f54": {
+            "label": "span: ©",
+            "section": "Подвал",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/footer/div/span/text()[1]",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": " "
+                }
+            ]
+        },
+        "f55": {
+            "label": "Ссылка: #main",
+            "section": "Подвал",
+            "type": "link",
+            "bindings": [
+                {
+                    "path": "/html/body/footer/div/a/@href",
+                    "attribute": "href",
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f56": {
+            "label": "a: Наверх",
+            "section": "Подвал",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/footer/div/a/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f57": {
+            "label": "button: ×",
+            "section": "Общие элементы",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/dialog/button/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f58": {
+            "label": "button: ←",
+            "section": "Общие элементы",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/dialog/div/button[1]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        },
+        "f59": {
+            "label": "button: →",
+            "section": "Общие элементы",
+            "type": "text",
+            "bindings": [
+                {
+                    "path": "/html/body/dialog/div/button[2]/text()",
+                    "attribute": null,
+                    "prefix": "",
+                    "suffix": ""
+                }
+            ]
+        }
+    }
+}
