@@ -30,6 +30,9 @@
   const orderName = `${product.title}${product.sku ? ` · ${product.sku}` : ''} (${product.brand})`;
   element('product-order').dataset.order = orderName;
   element('product-selection-order').dataset.order = orderName;
+  element('product-order').dataset.productId = id;
+  element('product-selection-order').dataset.productId = id;
+  selectOrderProduct(document.querySelector('#request-form'), id, orderName);
   document.querySelector('#request-form [name="comment"]').value = `Интересует: ${orderName}\n`;
   product.description.forEach((text) => {
     const paragraph = document.createElement('p');

@@ -1417,3 +1417,4 @@ button:focus-visible,
     transition-duration: 0.01ms !important;
   }
 }
+.form-product { grid-column: 1 / -1; margin: 0; padding: 14px 16px; border-left: 3px solid #00dfc8; background: #f0faf7; color: #202524; font-weight: 600; overflow-wrap: anywhere; }

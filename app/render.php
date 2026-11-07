@@ -12,7 +12,7 @@ function product_list(array $products, array $labels): string {
     $html='';
     foreach ($products as $id=>$p) {
         $url='product.html?part='.rawurlencode($id); $photo=$p['photos'][0];
-        $html.='<article class="part-item" data-brand="'.e($p['brand']).'"><a class="part-image" href="'.$url.'"><img src="'.e($photo['src']).'" alt="'.e($photo['alt']).'" loading="lazy"></a><div class="part-content"><p class="part-code">'.e($p['category'].($p['sku']?' · '.$p['sku']:'')).'</p><h2><a href="'.$url.'">'.e($p['title']).'</a></h2><p>'.e($p['summary']).'</p><p class="catalog-price">'.e($p['price']).' · '.e($p['availability']).'</p><div class="part-actions"><a class="button button-outline" href="'.$url.'">'.e($labels['details']).'</a><a class="button" href="#request" data-order="'.e($p['title'].($p['sku']?' · '.$p['sku']:'').' ('.$p['brand'].')').'">'.e($labels['order']).'</a></div></div></article>';
+        $html.='<article class="part-item" data-brand="'.e($p['brand']).'"><a class="part-image" href="'.$url.'"><img src="'.e($photo['src']).'" alt="'.e($photo['alt']).'" loading="lazy"></a><div class="part-content"><p class="part-code">'.e($p['category'].($p['sku']?' · '.$p['sku']:'')).'</p><h2><a href="'.$url.'">'.e($p['title']).'</a></h2><p>'.e($p['summary']).'</p><p class="catalog-price">'.e($p['price']).' · '.e($p['availability']).'</p><div class="part-actions"><a class="button button-outline" href="'.$url.'">'.e($labels['details']).'</a><a class="button" href="#request" data-product-id="'.e($id).'" data-order="'.e($p['title'].($p['sku']?' · '.$p['sku']:'').' ('.$p['brand'].')').'">'.e($labels['order']).'</a></div></div></article>';
     }
     return $html;
 }
@@ -68,6 +68,12 @@ function render_page(string $page,array $data,bool $demo=false,?string $part=nul
         $form->setAttribute('data-live',$demo?'false':'true');
         $form->setAttribute('method','post');
         $form->setAttribute('action','api/lead.php');
+        $selected=$page==='product'&&isset($products[$part??''])?$part:'';
+        $hidden=$dom->createElement('input');$hidden->setAttribute('type','hidden');$hidden->setAttribute('name','productId');$hidden->setAttribute('value',$selected);$form->appendChild($hidden);
+        $selection=$dom->createElement('p');$selection->setAttribute('class','form-product');$selection->setAttribute('data-selected-product','');
+        if ($selected!=='') $selection->textContent='Выбран товар: '.$products[$selected]['title'].($products[$selected]['sku']?' · '.$products[$selected]['sku']:'').' ('.$products[$selected]['brand'].')';
+        else $selection->setAttribute('hidden','');
+        $form->insertBefore($selection,$form->firstChild);
         $note=$xp->query('.//*[contains(@class,"form-note")]',$form)->item(0);
         $note->textContent=$demo?'Демонстрационная форма: данные не отправляются. Для заказа используйте телефон или почту.':$labels['liveFormNote'];
         $xp->query('.//button[@type="submit"]',$form)->item(0)->textContent=$demo?'Проверить заявку (демо)':$labels['submit'];

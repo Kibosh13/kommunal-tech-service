@@ -6,6 +6,24 @@ function mail_config(): array {
     return read_json('mail-secret.json',['mode'=>'mail','host'=>'mail.hosting.reg.ru','port'=>465,'security'=>'ssl','username'=>'','password'=>'']);
 }
 
+function notification_message(array $lead, bool $test=false): array {
+    if ($test) return ['subject'=>'rkt1.ru — проверка уведомлений','body'=>'Это проверка отправки уведомлений с rkt1.ru. Если письмо получено, настройка работает.'];
+    $product=$lead['product']??null;
+    $subject='Новая заявка rkt1.ru';
+    $lines=['Заявка: '.$lead['id'],'Дата: '.$lead['createdAt'],''];
+    if ($product) {
+        $title=trim(preg_replace('/\s+/u',' ',$product['title']));
+        $subject.=' — '.mb_substr($title,0,100);
+        $lines[]='Товар: '.$product['title'];
+        $lines[]='Марка техники: '.$product['brand'];
+        $lines[]='Артикул: '.($product['sku']!==''?$product['sku']:'уточняется при подборе');
+        $lines[]='Карточка товара: '.$product['url'];
+    } else $lines[]='Общая заявка: товар не выбран.';
+    if (!empty($lead['sourceUrl'])) $lines[]='Страница отправки: '.$lead['sourceUrl'];
+    array_push($lines,'','Имя: '.$lead['name'],'Почта: '.$lead['email'],'Телефон: '.$lead['phone'],'','Комментарий клиента:',$lead['comment'],'','Заявка также сохранена в админке: https://rkt1.ru/admin/');
+    return ['subject'=>$subject.' — '.$lead['id'],'body'=>implode("\n",$lines)];
+}
+
 function send_notification(array $lead, bool $test=false): string {
     if (getenv('RKT_TEST_MAIL')==='1') return 'accepted'; // CLI integration-test fixture only.
     $settings=content()['settings'];
@@ -25,8 +43,9 @@ function send_notification(array $lead, bool $test=false): string {
         $mail->setFrom($settings['sender'],$settings['company']);
         $mail->addAddress($settings['recipient']);
         if (!$test) $mail->addReplyTo($lead['email'],$lead['name']);
-        $mail->Subject=$test?'rkt1.ru — проверка уведомлений':'Новая заявка rkt1.ru — '.$lead['id'];
-        $mail->Body=$test?'Это проверка отправки уведомлений с rkt1.ru. Если письмо получено, настройка работает.':'Заявка: '.$lead['id']."\nДата: ".$lead['createdAt']."\nИмя: ".$lead['name']."\nПочта: ".$lead['email']."\nТелефон: ".$lead['phone']."\n\n".$lead['comment']."\n\nЗаявка также сохранена в админке: https://rkt1.ru/admin/";
+        $message=notification_message($lead,$test);
+        $mail->Subject=$message['subject'];
+        $mail->Body=$message['body'];
         $mail->send();
         return 'accepted'; // Transport accepted; inbox delivery cannot be guaranteed.
     } catch (Throwable $error) { return 'failed'; }

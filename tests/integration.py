@@ -139,17 +139,27 @@ def run():
             assert code == 200
             visitor.csrf = result['csrf']
             time.sleep(2.2)
-            lead = {'name':'Тестовая заявка','email':'qa@example.com','phone':'+79000000000','comment':'Проверка карточки','website':'','consent':True}
+            lead = {'name':'Тестовая заявка','email':'qa@example.com','phone':'+79000000000','comment':'Вопрос по доставке. Название товара из комментария удалено.','website':'','consent':True,'productId':'kat-monitor','sourcePage':'/product.html?part=kat-monitor&utm_source=ignore','product':{'title':'Подмена','url':'https://evil.example/'}}
             assert visitor.request('/api/lead.php', dict(lead, consent=False))[0] == 422
             assert visitor.request('/api/lead.php', dict(lead, website='spam'))[0] == 422
+            assert visitor.request('/api/lead.php', dict(lead, productId='missing-product'))[0] == 422
             code, result, _ = visitor.request('/api/lead.php', lead)
             assert code == 201 and result['ok']
             leads = client.action('leads')['leads']
             assert len(leads) == 1 and leads[0]['mailStatus'] == 'accepted'
+            selected = leads[0]['product']
+            assert selected == {'id':'kat-monitor','title':baseline['products']['kat-monitor']['title'],'sku':'50KM015','brand':'KATMERCILER','url':'https://rkt1.ru/product.html?part=kat-monitor'}
+            assert leads[0]['sourceUrl'] == selected['url'] and leads[0]['comment'] == lead['comment']
+            message = json.loads(subprocess.check_output(['php','-r','require "app/mail.php"; echo json_encode(notification_message(json_decode(stream_get_contents(STDIN),true)),JSON_UNESCAPED_UNICODE|JSON_THROW_ON_ERROR);'],cwd=ROOT,input=json.dumps(leads[0]).encode(),env=env))
+            assert selected['title'] in message['subject'] and selected['title'] in message['body']
+            assert 'Артикул: 50KM015' in message['body'] and selected['url'] in message['body'] and lead['comment'] in message['body']
+            assert 'Подмена' not in message['body'] and 'evil.example' not in message['body']
             client.action('update-lead', {'id':leads[0]['id'],'status':'in_progress'})
             assert client.action('leads')['leads'][0]['status'] == 'in_progress'
+            assert visitor.request('/api/lead.php', dict(lead,productId='',sourcePage='/index.html'))[0] == 201
+            assert client.action('leads')['leads'][0]['product'] is None
             visitor.action('leads', status=401)
-            print('PASS: consent and spam checks, private lead persistence, notification transport, lead status workflow')
+            print('PASS: lead validation, independent product snapshot/link in email after comment replacement, general requests, status workflow')
             second = Client(base)
             second.csrf = second.action('status')['csrf']
             second.csrf = second.action('login', {'username':'qa-admin','password':password})['csrf']

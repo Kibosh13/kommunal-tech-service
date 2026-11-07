@@ -2,6 +2,7 @@
 declare(strict_types=1);
 require __DIR__.'/../app/bootstrap.php';
 require __DIR__.'/../app/mail.php';
+require __DIR__.'/../app/leads.php';
 security_headers();
 try {
     session_begin();
@@ -14,6 +15,7 @@ try {
     if (!empty($input['website']) || time()-($_SESSION['leadAt']??time())<2) throw new HttpError(422,'Пожалуйста, подождите пару секунд и повторите отправку.');
     if (($input['consent']??false)!==true) throw new HttpError(422,'Нужно согласие на использование контактных данных для ответа.');
     $lead=['id'=>gmdate('Ymd').'-'.bin2hex(random_bytes(5)), 'createdAt'=>gmdate('c'), 'name'=>text_value($input['name']??'',150), 'email'=>email_value($input['email']??''), 'phone'=>text_value($input['phone']??'',60), 'comment'=>text_value($input['comment']??'',6000), 'status'=>'new', 'mailStatus'=>'pending', 'consentAt'=>gmdate('c')];
+    $lead+=lead_context($input,content(),$_SERVER['HTTP_REFERER']??'');
     if ($lead['name']==='') throw new HttpError(422,'Укажите имя.');
     transaction(function() use ($lead) {
         $leads=read_json('leads.json');if (count($leads)>=5000) throw new HttpError(503,'Свяжитесь с нами по телефону или почте.');
