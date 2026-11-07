@@ -7,10 +7,10 @@
     <title>Карточка запчасти — Выездной сервис коммунальной техники</title>
     <meta name="description" content="Фотографии, описание и характеристики запчастей для мусоровозов. Подбор по артикулу и VIN.">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%23292929'/%3E%3Cpath%20d='M15%2037h29l5%207H18a7%207%200%200%201-3-7Zm5-17h22l2%2014H17l3-14Z'%20fill='%2300dfc8'/%3E%3Ccircle%20cx='24'%20cy='46'%20r='5'%20fill='white'/%3E%3Ccircle%20cx='43'%20cy='46'%20r='5'%20fill='white'/%3E%3C/svg%3E">
-    <link rel="stylesheet" href="style.css?v=574d4621b3ad">
-    <script src="script.js?v=574d4621b3ad" defer></script>
-    <script src="products.js?v=574d4621b3ad" defer></script>
-    <script src="product.js?v=574d4621b3ad" defer></script>
+    <link rel="stylesheet" href="style.css?v=b8263421cd4b">
+    <script src="script.js?v=b8263421cd4b" defer></script>
+    <script src="products.js?v=b8263421cd4b" defer></script>
+    <script src="product.js?v=b8263421cd4b" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">К содержанию</a>
@@ -58,14 +58,14 @@
       <section class="section form-section soft" id="request">
         <div class="container">
           <div class="section-heading"><h2>Заявка на запчасть</h2><p>Выбранная деталь уже указана в комментарии. Добавьте модель техники, VIN и данные для подбора.</p></div>
-          <form class="request-form" id="request-form" data-live="false" method="post" action="api/lead.php">
+          <form class="request-form" id="request-form" data-live="false" method="post" action="api/lead.php"><p class="form-product" data-selected-product="" hidden=""></p>
             <div class="form-field"><input id="name" name="name" type="text" placeholder=" " autocomplete="name" required><label for="name">Имя</label></div>
             <div class="form-field"><input id="email" name="email" type="email" placeholder=" " autocomplete="email" required><label for="email">Электронная почта</label></div>
             <div class="form-field form-field-full"><input id="phone" name="phone" type="tel" placeholder=" " autocomplete="tel"><label for="phone">Телефон</label></div>
             <div class="form-field form-field-full"><textarea id="comment" name="comment" placeholder=" "></textarea><label for="comment">Запчасть и данные техники</label></div>
             <div class="form-actions"><button class="button" type="submit">Проверить заявку (демо)</button><p class="form-note">Демонстрационная форма: данные не отправляются. Для заказа используйте телефон или почту.</p></div>
             <p class="form-status" aria-live="polite"></p>
-          </form>
+          <input type="hidden" name="productId" value=""></form>
         </div>
       </section>
       <section class="section contacts" id="contacts"><div class="container"><div class="section-heading"><h2>Контакты</h2><p>Подбор запчастей и выездной сервис коммунальной техники.</p></div><address class="contact-list"><span>Московская обл., г. Подольск, ул. Центральная, д. 10, офис 25</span><span>Телефон: <a href="tel:+79671895177">+7 (967) 189-51-77</a></span><span>Электронная почта: <a href="mailto:emg-technics@mail.ru">emg-technics@mail.ru</a></span></address></div></section>

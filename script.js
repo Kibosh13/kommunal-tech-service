@@ -65,6 +65,16 @@ document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape') closeModal();
 });
 
+function selectOrderProduct(form, id, title) {
+  const field = form.querySelector('[name="productId"]');
+  if (field) field.value = id || '';
+  const selected = form.querySelector('[data-selected-product]');
+  if (selected) {
+    selected.textContent = title ? `Выбран товар: ${title}` : '';
+    selected.hidden = !title;
+  }
+}
+
 document.addEventListener('click', (event) => {
   const orderButton = event.target.closest('[data-order]');
   if (!orderButton) return;
@@ -75,6 +85,7 @@ document.addEventListener('click', (event) => {
 
   const comment = form.querySelector('[name="comment"]');
   const itemName = orderButton.dataset.order;
+  selectOrderProduct(form, orderButton.dataset.productId || '', itemName);
   if (comment && itemName) {
     // Не теряем VIN и другие сведения, уже введённые посетителем.
     const details = comment.value.replace(/^Интересует:.*(?:\r?\n)?/, '').trim();
@@ -113,12 +124,14 @@ document.querySelectorAll('.request-form').forEach((form) => {
       const response = await fetch('api/lead.php', {
         method: 'POST', credentials: 'same-origin',
         headers: { 'Content-Type': 'application/json', 'X-CSRF-Token': token },
-        body: JSON.stringify({ ...values, consent: form.querySelector('[name="consent"]').checked })
+        body: JSON.stringify({ ...values, sourcePage: window.location.pathname + window.location.search, consent: form.querySelector('[name="consent"]').checked })
       });
       const result = await response.json();
       if (!response.ok) throw new Error(result.error || 'Не удалось отправить заявку.');
       status.textContent = `${result.message} Номер: ${result.id}.`;
       form.reset();
+      // Keep the selected item for a repeated enquiry, independently of comment.
+      selectOrderProduct(form, values.productId, form.querySelector('[data-selected-product]')?.textContent.replace(/^Выбран товар: /, ''));
     } catch (error) {
       status.textContent = `${error.message} Телефон: ${runtime.phone}. Почта: ${runtime.email}.`;
     } finally { button.disabled = false; }

@@ -7,8 +7,8 @@
     <title>Выездной сервис и запчасти для мусоровозов</title>
     <meta name="description" content="Запчасти, ремонт и сервисное обслуживание для мусоровозов FAUN, KATMERCILER, HIDRO-MAK, CINAR, KADEME, Мценск, Экомтех и Тверькоммаш.">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%23292929'/%3E%3Cpath%20d='M15%2037h29l5%207H18a7%207%200%200%201-3-7Zm5-17h22l2%2014H17l3-14Z'%20fill='%2300dfc8'/%3E%3Ccircle%20cx='24'%20cy='46'%20r='5'%20fill='white'/%3E%3Ccircle%20cx='43'%20cy='46'%20r='5'%20fill='white'/%3E%3C/svg%3E">
-    <link rel="stylesheet" href="style.css?v=574d4621b3ad">
-    <script src="script.js?v=574d4621b3ad" defer></script>
+    <link rel="stylesheet" href="style.css?v=b8263421cd4b">
+    <script src="script.js?v=b8263421cd4b" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">К содержанию</a>
@@ -102,14 +102,14 @@
             <h2>Заявка на сервис или запчасти</h2>
             <p>Оформите заявку, указав ваши контактные данные. Мы свяжемся с вами в кратчайшие сроки для обсуждения деталей заказа.</p>
           </div>
-          <form class="request-form" id="request-form" data-live="false" method="post" action="api/lead.php">
+          <form class="request-form" id="request-form" data-live="false" method="post" action="api/lead.php"><p class="form-product" data-selected-product="" hidden=""></p>
             <div class="form-field"><input id="name" name="name" type="text" placeholder=" " required><label for="name">Имя</label></div>
             <div class="form-field"><input id="email" name="email" type="email" placeholder=" " required><label for="email">Электронная почта</label></div>
             <div class="form-field form-field-full"><input id="phone" name="phone" type="tel" placeholder=" "><label for="phone">Телефон</label></div>
             <div class="form-field form-field-full"><textarea id="comment" name="comment" placeholder=" "></textarea><label for="comment">Комментарий</label></div>
             <div class="form-actions"><button class="button" type="submit">Проверить заявку (демо)</button><p class="form-note">Демонстрационная форма: данные не отправляются. Для заказа используйте телефон или почту.</p></div>
             <p class="form-status" aria-live="polite"></p>
-          </form>
+          <input type="hidden" name="productId" value=""></form>
         </div>
       </section>
 
